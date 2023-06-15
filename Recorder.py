@@ -20,11 +20,28 @@ class Recorder:
         self.stream = None
 
     def start_recording(self):
+        """
+        Starts recording the user 
+        """
         self.recording = []
         self.stream = sd.InputStream(callback=self.audio_callback)
         self.stream.start()
 
     def audio_callback(self, indata, frames, time, status):
+        """
+        grabs a chunk of the realtime recording and adds to self.recording 
+
+        Params:
+            indata : numpy.ndarray
+                - The input audio data received by the callback function.
+            frames : int
+                - The number of frames in the input audio data.
+            time : float 
+                - The time at which the input audio data was received.
+            status : str 
+                - The status of the audio stream, indicating any errors or stream end.
+
+        """
         self.recording.append(indata.copy())
 
     def stop_recording(self):

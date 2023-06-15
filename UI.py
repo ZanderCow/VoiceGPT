@@ -45,12 +45,21 @@ class UI:
 
 
     def start_record(self):
+        """
+        This function starts the recording process. 
+        It hides the start button, initiates the recording process, and then displays the stop button.
+        """
         self.start_button.pack_forget()
         self.recorder.start_recording()
         self.stop_button.pack()
         
 
     def stop_record(self):
+        """
+        This function stops the recording process. 
+        It hides the stop button, displays the start button, and stops the recording process. 
+        It then transcribes the recorded audio to text, sends the transcribed text to the GPT-3 model for processing, and prints the model's response.
+        """
         self.stop_button.pack_forget()
         self.start_button.pack()
         self.recorder.stop_recording()
