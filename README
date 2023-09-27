@@ -1,25 +1,22 @@
-do the following steps to be able to use this program
+#do the following steps to be able to use this program
 
-1:
-    make sure you have the following libraries installed:
+#1: make sure you have the following libraries installed:
 
-        -openai
-        -tkinter
-        -sounddevice
-        -numpy
-        -scripy
-
-
-2:
-    get a openAi API key
-
-        - theres tons of tutorials explaining how to get it so look it up on youtube. 
-        - keep in mind that YOU NEED A CREDIT CARD TO BE ABLE TO USE THIS PROGRAM. OpenAI needs to make money somehow so they charge people for using their API. But dont worry, its very cheap. It cost less than a penny to do a API call. 
-        - You can look up the pricing for each model at  https://openai.com/pricing. 
+-openai
+-tkinter
+-sounddevice
+-numpy
+-scripy
 
 
-3: 
-    run the program
+#2: get a openAi API key
 
-        - go to main.py and run your program. 
-        - if your program does not work. You might have issues with installing the libraries.
+- theres tons of tutorials explaining how to get it so look it up on youtube. 
+- keep in mind that YOU NEED A CREDIT CARD TO BE ABLE TO USE THIS PROGRAM. OpenAI needs to make money somehow so they charge people for using their API. But dont worry, its very cheap. It cost less than a penny to do a API call. 
+- You can look up the pricing for each model at  https://openai.com/pricing. 
+
+
+#3: run the program
+
+- go to main.py and run your program. 
+- if your program does not work. You might have issues with installing the libraries.
