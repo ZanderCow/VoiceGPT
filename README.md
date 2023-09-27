@@ -19,5 +19,6 @@ Ensure that you have the following libraries installed:
 
 ## Step 3: Run the Program
 
-- Navigate to `main.py` and execute the program.
+- Navigate to `main.py`
+- put your api key into where it says "put api key here"
 - If the program doesn't run as expected, verify that you've correctly installed the necessary libraries mentioned in Step 1.
