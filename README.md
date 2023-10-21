@@ -1,5 +1,6 @@
 # ReadME
 
+Hey! this is a program I wrote during the summer of 2023. 
 ## Step 1: Install Necessary Libraries
 
 Ensure that you have the following libraries installed:
