@@ -1,6 +1,6 @@
 # ReadME
 
-Hey! this is a program I wrote during the summer of 2023. 
+Hey! this is a program I wrote during the summer of 2023. It allows you to talk to a chatGPT model using your voice and outputs the models response to the console.
 ## Step 1: Install Necessary Libraries
 
 Ensure that you have the following libraries installed:
